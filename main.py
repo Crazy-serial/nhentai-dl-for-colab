@@ -44,6 +44,8 @@ elif require_keyword == "False":
     search = ""
 else:
     exit()
+    
+print(f"{page}ページ分の作品を取得します(config.iniで調整できます)")
 
 
 reject_tag_list = file_reader(reject_tag_list)
