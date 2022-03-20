@@ -50,7 +50,7 @@ page = int(input(">>> "))
 print(f"{page}ページ分の作品を取得します")
 reject_tag_list = file_reader(reject_tag_list)
 reject_name_list = file_reader(reject_name_list)
-for i in range(1, page):
+for i in range(1, page+1):
     if search != "":
       urls = scr.artwork_collector(i, search)
     else:
